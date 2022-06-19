@@ -1,0 +1,373 @@
+[0] dashboardServer DashboardServer {
+[0]   port: 24012,
+[0]   host: 'localhost',
+[0]   rpc: true,
+[0]   verbose: true,
+[0]   autoOpen: false,
+[0]   frontendPath: '/Users/sbacha/wallet-bus/packages/dashboard/lib/dashboard-frontend/build',
+[0]   boundTerminateListener: [Function (anonymous)]
+[0] }
+[1] craco:  *** Cannot find ESLint plugin (ESLintWebpackPlugin). ***
+[1] ℹ ｢wds｣: Project is running at http://192.168.1.191/
+[1] ℹ ｢wds｣: webpack output is served from
+[1] ℹ ｢wds｣: Content not from webpack is served from /Users/sbacha/wallet-bus/packages/dashboard/public
+[1] ℹ ｢wds｣: 404s will fallback to /
+[1] Starting the development server...
+[1]
+[1] Compiled successfully!
+[1]
+[1] You can now view @securerpc/dashboard in the browser.
+[1]
+[1]   Local:            http://localhost:3000
+[1]   On Your Network:  http://192.168.1.191:3000
+[1]
+[1] Note that the development build is not optimized.
+[1] To create a production build, use npm run build.
+[1]
+[0] 2022-06-19T12:35:47.968Z dashboard-message-bus:connections Subscriber connected
+[0] 2022-06-19T12:36:03.304Z dashboard-message-bus:connections Subscriber disconnected
+[0] 2022-06-19T12:36:05.836Z dashboard-message-bus:connections Subscriber connected
+[0] 2022-06-19T12:36:26.089Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:26.089Z dashboard-message-bus:requests {
+[0]   id: 0.12066526163513047,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_accounts', params: [], id: 42, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:26.091Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:26.091Z dashboard-message-bus:requests {
+[0]   id: 0.09354976498458356,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 43, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:26.095Z dashboard-message-bus:responses Sending response for message 0.09354976498458356
+[0] 2022-06-19T12:36:26.095Z dashboard-message-bus:responses {
+[0]   id: 0.09354976498458356,
+[0]   payload: { jsonrpc: '2.0', result: '0x5', id: 43 }
+[0] }
+[0] 2022-06-19T12:36:26.096Z dashboard-message-bus:responses Sending response for message 0.12066526163513047
+[0] 2022-06-19T12:36:26.096Z dashboard-message-bus:responses {
+[0]   id: 0.12066526163513047,
+[0]   payload: {
+[0]     jsonrpc: '2.0',
+[0]     result: [ '0x19C41c7F598491FdD76e23B80765582381532951' ],
+[0]     id: 42
+[0]   }
+[0] }
+[0] 2022-06-19T12:36:26.109Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:26.109Z dashboard-message-bus:requests {
+[0]   id: 0.5945196725548239,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_blockNumber', params: [], id: 44, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:26.110Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:26.110Z dashboard-message-bus:requests {
+[0]   id: 0.5647615763559823,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 45, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:26.113Z dashboard-message-bus:responses Sending response for message 0.5647615763559823
+[0] 2022-06-19T12:36:26.113Z dashboard-message-bus:responses {
+[0]   id: 0.5647615763559823,
+[0]   payload: { jsonrpc: '2.0', result: '0x5', id: 45 }
+[0] }
+[0] 2022-06-19T12:36:26.240Z dashboard-message-bus:responses Sending response for message 0.5945196725548239
+[0] 2022-06-19T12:36:26.240Z dashboard-message-bus:responses {
+[0]   id: 0.5945196725548239,
+[0]   payload: { jsonrpc: '2.0', result: 7085756, id: 44 }
+[0] }
+[0] 2022-06-19T12:36:26.245Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:26.246Z dashboard-message-bus:requests {
+[0]   id: 0.8814002820496396,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_accounts', params: [], id: 46, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:26.246Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:26.246Z dashboard-message-bus:requests {
+[0]   id: 0.40814426592279496,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 47, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:26.249Z dashboard-message-bus:responses Sending response for message 0.40814426592279496
+[0] 2022-06-19T12:36:26.249Z dashboard-message-bus:responses {
+[0]   id: 0.40814426592279496,
+[0]   payload: { jsonrpc: '2.0', result: '0x5', id: 47 }
+[0] }
+[0] 2022-06-19T12:36:26.249Z dashboard-message-bus:responses Sending response for message 0.8814002820496396
+[0] 2022-06-19T12:36:26.250Z dashboard-message-bus:responses {
+[0]   id: 0.8814002820496396,
+[0]   payload: {
+[0]     jsonrpc: '2.0',
+[0]     result: [ '0x19C41c7F598491FdD76e23B80765582381532951' ],
+[0]     id: 46
+[0]   }
+[0] }
+[0] 2022-06-19T12:36:26.255Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:26.255Z dashboard-message-bus:requests {
+[0]   id: 0.49494487093558504,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:36:35.556Z dashboard-message-bus:connections Subscriber disconnected
+[0] 2022-06-19T12:36:35.556Z dashboard-message-bus:errors An error occurred while processing message 0.49494487093558504
+[0] 2022-06-19T12:36:35.556Z dashboard-message-bus:errors {}
+[0] 2022-06-19T12:36:37.504Z dashboard-message-bus:connections Subscriber connected
+[0] 2022-06-19T12:36:38.509Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:38.509Z dashboard-message-bus:requests {
+[0]   id: 0.49494487093558504,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:36:49.954Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:49.954Z dashboard-message-bus:requests {
+[0]   id: 0.20604137978413717,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_accounts', params: [], id: 42, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:49.954Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:49.955Z dashboard-message-bus:requests {
+[0]   id: 0.46183969822792115,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 43, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:49.959Z dashboard-message-bus:responses Sending response for message 0.46183969822792115
+[0] 2022-06-19T12:36:49.959Z dashboard-message-bus:responses {
+[0]   id: 0.46183969822792115,
+[0]   payload: { jsonrpc: '2.0', result: '0x5', id: 43 }
+[0] }
+[0] 2022-06-19T12:36:49.960Z dashboard-message-bus:responses Sending response for message 0.20604137978413717
+[0] 2022-06-19T12:36:49.960Z dashboard-message-bus:responses {
+[0]   id: 0.20604137978413717,
+[0]   payload: {
+[0]     jsonrpc: '2.0',
+[0]     result: [ '0x19C41c7F598491FdD76e23B80765582381532951' ],
+[0]     id: 42
+[0]   }
+[0] }
+[0] (node:8560) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [WebSocket]. Use emitter.setMaxListeners() to increase limit
+[0] (Use `node --trace-warnings ...` to show where the warning was created)
+[0] (node:8560) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 error listeners added to [WebSocket]. Use emitter.setMaxListeners() to increase limit
+[0] (node:8560) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [WebSocket]. Use emitter.setMaxListeners() to increase limit
+[0] 2022-06-19T12:36:49.974Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:49.974Z dashboard-message-bus:requests {
+[0]   id: 0.6641398911639564,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_blockNumber', params: [], id: 44, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:49.975Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:49.975Z dashboard-message-bus:requests {
+[0]   id: 0.11785615762507184,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 45, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:49.978Z dashboard-message-bus:responses Sending response for message 0.11785615762507184
+[0] 2022-06-19T12:36:49.979Z dashboard-message-bus:responses {
+[0]   id: 0.11785615762507184,
+[0]   payload: { jsonrpc: '2.0', result: '0x5', id: 45 }
+[0] }
+[0] 2022-06-19T12:36:50.101Z dashboard-message-bus:responses Sending response for message 0.6641398911639564
+[0] 2022-06-19T12:36:50.101Z dashboard-message-bus:responses {
+[0]   id: 0.6641398911639564,
+[0]   payload: { jsonrpc: '2.0', result: 7085758, id: 44 }
+[0] }
+[0] 2022-06-19T12:36:50.107Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:50.107Z dashboard-message-bus:requests {
+[0]   id: 0.6413769471003401,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_accounts', params: [], id: 46, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:50.107Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:50.107Z dashboard-message-bus:requests {
+[0]   id: 0.2873943696943808,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 47, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:36:50.110Z dashboard-message-bus:responses Sending response for message 0.2873943696943808
+[0] 2022-06-19T12:36:50.111Z dashboard-message-bus:responses {
+[0]   id: 0.2873943696943808,
+[0]   payload: { jsonrpc: '2.0', result: '0x5', id: 47 }
+[0] }
+[0] 2022-06-19T12:36:50.111Z dashboard-message-bus:responses Sending response for message 0.6413769471003401
+[0] 2022-06-19T12:36:50.112Z dashboard-message-bus:responses {
+[0]   id: 0.6413769471003401,
+[0]   payload: {
+[0]     jsonrpc: '2.0',
+[0]     result: [ '0x19C41c7F598491FdD76e23B80765582381532951' ],
+[0]     id: 46
+[0]   }
+[0] }
+[0] 2022-06-19T12:36:50.117Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:36:50.117Z dashboard-message-bus:requests {
+[0]   id: 0.7423308417281416,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:37:42.210Z dashboard-message-bus:connections Subscriber disconnected
+[0] 2022-06-19T12:37:42.210Z dashboard-message-bus:errors An error occurred while processing message 0.49494487093558504
+[0] 2022-06-19T12:37:42.210Z dashboard-message-bus:errors {}
+[0] 2022-06-19T12:37:42.211Z dashboard-message-bus:errors An error occurred while processing message 0.7423308417281416
+[0] 2022-06-19T12:37:42.211Z dashboard-message-bus:errors {}
+[0] 2022-06-19T12:37:59.213Z dashboard-message-bus:connections Subscriber connected
+[0] 2022-06-19T12:38:00.218Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:00.219Z dashboard-message-bus:requests {
+[0]   id: 0.49494487093558504,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:38:00.219Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:00.219Z dashboard-message-bus:requests {
+[0]   id: 0.7423308417281416,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:38:02.957Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:02.957Z dashboard-message-bus:requests {
+[0]   id: 0.24109470343382466,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_accounts', params: [], id: 42, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:38:02.958Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:02.958Z dashboard-message-bus:requests {
+[0]   id: 0.5048813114942892,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 43, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:38:02.962Z dashboard-message-bus:responses Sending response for message 0.5048813114942892
+[0] 2022-06-19T12:38:02.962Z dashboard-message-bus:responses {
+[0]   id: 0.5048813114942892,
+[0]   payload: { jsonrpc: '2.0', result: '0x1', id: 43 }
+[0] }
+[0] 2022-06-19T12:38:02.963Z dashboard-message-bus:responses Sending response for message 0.24109470343382466
+[0] 2022-06-19T12:38:02.963Z dashboard-message-bus:responses {
+[0]   id: 0.24109470343382466,
+[0]   payload: {
+[0]     jsonrpc: '2.0',
+[0]     result: [ '0x19C41c7F598491FdD76e23B80765582381532951' ],
+[0]     id: 42
+[0]   }
+[0] }
+[0] 2022-06-19T12:38:02.977Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:02.978Z dashboard-message-bus:requests {
+[0]   id: 0.03217926972324192,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_blockNumber', params: [], id: 44, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:38:02.978Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:02.978Z dashboard-message-bus:requests {
+[0]   id: 0.8954160683106551,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 45, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:38:02.981Z dashboard-message-bus:responses Sending response for message 0.8954160683106551
+[0] 2022-06-19T12:38:02.981Z dashboard-message-bus:responses {
+[0]   id: 0.8954160683106551,
+[0]   payload: { jsonrpc: '2.0', result: '0x1', id: 45 }
+[0] }
+[0] 2022-06-19T12:38:03.130Z dashboard-message-bus:responses Sending response for message 0.03217926972324192
+[0] 2022-06-19T12:38:03.130Z dashboard-message-bus:responses {
+[0]   id: 0.03217926972324192,
+[0]   payload: { jsonrpc: '2.0', result: 14990815, id: 44 }
+[0] }
+[0] 2022-06-19T12:38:03.136Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:03.136Z dashboard-message-bus:requests {
+[0]   id: 0.7112671988174368,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_accounts', params: [], id: 46, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:38:03.136Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:03.136Z dashboard-message-bus:requests {
+[0]   id: 0.10983333316670496,
+[0]   type: 'provider',
+[0]   payload: { method: 'eth_chainId', params: [], id: 47, jsonrpc: '2.0' }
+[0] }
+[0] 2022-06-19T12:38:03.139Z dashboard-message-bus:responses Sending response for message 0.7112671988174368
+[0] 2022-06-19T12:38:03.139Z dashboard-message-bus:responses {
+[0]   id: 0.7112671988174368,
+[0]   payload: {
+[0]     jsonrpc: '2.0',
+[0]     result: [ '0x19C41c7F598491FdD76e23B80765582381532951' ],
+[0]     id: 46
+[0]   }
+[0] }
+[0] 2022-06-19T12:38:03.139Z dashboard-message-bus:responses Sending response for message 0.10983333316670496
+[0] 2022-06-19T12:38:03.139Z dashboard-message-bus:responses {
+[0]   id: 0.10983333316670496,
+[0]   payload: { jsonrpc: '2.0', result: '0x1', id: 47 }
+[0] }
+[0] (node:8560) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [WebSocket]. Use emitter.setMaxListeners() to increase limit
+[0] 2022-06-19T12:38:03.145Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:03.145Z dashboard-message-bus:requests {
+[0]   id: 0.902421968761111,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:38:07.183Z dashboard-message-bus:connections Subscriber disconnected
+[0] 2022-06-19T12:38:07.183Z dashboard-message-bus:errors An error occurred while processing message 0.49494487093558504
+[0] 2022-06-19T12:38:07.183Z dashboard-message-bus:errors {}
+[0] 2022-06-19T12:38:07.183Z dashboard-message-bus:errors An error occurred while processing message 0.7423308417281416
+[0] 2022-06-19T12:38:07.184Z dashboard-message-bus:errors {}
+[0] 2022-06-19T12:38:07.184Z dashboard-message-bus:errors An error occurred while processing message 0.902421968761111
+[0] 2022-06-19T12:38:07.184Z dashboard-message-bus:errors {}
+[0] 2022-06-19T12:38:10.122Z dashboard-message-bus:connections Subscriber connected
+[0] 2022-06-19T12:38:11.125Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:11.125Z dashboard-message-bus:requests {
+[0]   id: 0.49494487093558504,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:38:11.126Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:11.126Z dashboard-message-bus:requests {
+[0]   id: 0.7423308417281416,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
+[0] 2022-06-19T12:38:11.126Z dashboard-message-bus:requests Sending message to 1 subscribers
+[0] 2022-06-19T12:38:11.127Z dashboard-message-bus:requests {
+[0]   id: 0.902421968761111,
+[0]   type: 'provider',
+[0]   payload: {
+[0]     method: 'eth_estimateGas',
+[0]     params: [ [Object] ],
+[0]     id: 48,
+[0]     jsonrpc: '2.0'
+[0]   }
+[0] }
